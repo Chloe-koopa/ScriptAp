@@ -1,0 +1,17 @@
+name: ScriptAp
+main: moe.gensoukyo.scriptap.ScriptApPlugin
+version: ${version}
+author: Chloe_koopa
+depend:
+  - AttributePlus
+commands:
+  defineattr:
+    description: Defines a (CustomNPCs)Scripted Attribute.
+    usage: /defineattr <funcname> [type]
+    permission: scriptap.define
+    permission-message: You don't have scriptap.define permission. Contact your admin if you believe you can do this.
+  scriptap:
+    description: Mainly used to reload plugin.
+    usage: /scriptap <reload|list|save>
+    permission: scriptap.reload
+    permission-message: You don't have scriptap.reload permission. Contact your admin if you believe you can do this.
