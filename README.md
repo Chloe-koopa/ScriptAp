@@ -9,7 +9,7 @@ Bukkit插件，AttributePlus附属插件，依赖CustomNPCs模组。
 ### 使用方法：
 
 使用`/defineattr 函数名 属性`类型来定义一个脚本属性，
-在NPC的forge脚本里，钩子函数名为ap_函数名。
+在NPC的forge脚本里，钩子函数名为`ap_函数名`。
 
 例如你想定义一个`啊，真棒`，类型为`INJURED`的属性，
 那么在控制台输入`/defineattr 啊，真棒 INJURED`，
