@@ -8,7 +8,17 @@ Bukkit插件，AttributePlus附属插件，依赖CustomNPCs模组。
 
 ### 使用方法：
 
-使用`/defineattr 函数名 属性`类型来定义一个脚本属性，
+使用`/defineattr 函数名 属性类型`来定义一个脚本属性，
+属性类型为DAMAGE，INJURED，RUNTIME，NULL四选一
+|类型名称|作用|
+|-|-|
+|DAMAGE|攻击时触发|
+|INJURED|被攻击时触发|
+|RUNTIME|属性更新时触发|
+|NULL|无效果（不建议选择）|
+
+详情请看：https://ersha.gitbook.io/attributeplus/kai-fa-wen-dang-1/zhu-ce-xin-shu-xing-baseattribute
+
 在NPC的forge脚本里，钩子函数名为`ap_函数名`。
 
 例如你想定义一个`啊，真棒`，类型为`INJURED`的属性，
