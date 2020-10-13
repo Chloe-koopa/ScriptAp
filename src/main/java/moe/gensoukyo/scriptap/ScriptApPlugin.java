@@ -20,8 +20,8 @@ public class ScriptApPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        this.onReload();
         super.onEnable();
+        this.onReload();
     }
 
     @SuppressWarnings({"unchecked", "rawtypes"})
@@ -90,6 +90,7 @@ public class ScriptApPlugin extends JavaPlugin {
                         && (attribute.getAttributeType().name().equals(type))
         )) {
             sender.sendMessage("Attribute already defined!");
+            return true;
         }
 
         try {
