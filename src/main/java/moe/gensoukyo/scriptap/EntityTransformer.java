@@ -16,7 +16,7 @@ import java.util.UUID;
  * {@link org.bukkit.entity.Entity}
  * to
  * {@link net.minecraft.entity.Entity}
- * 仅仅适配猫端
+ * 快速的转换需要CraftBukkit的实现中有getHandle函数
  * @author Chloe_koopa
  */
 public class EntityTransformer {
