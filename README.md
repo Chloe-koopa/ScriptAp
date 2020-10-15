@@ -16,7 +16,7 @@ Bukkit插件，AttributePlus附属插件，依赖CustomNPCs模组。
 |DAMAGE|攻击时触发|
 |INJURED|被攻击时触发|
 |RUNTIME|属性更新时触发|
-|NULL|无效果（不建议选择）|
+|NULL|无效果，但是会被正常计算|
 
 详情请看：https://ersha.gitbook.io/attributeplus/kai-fa-wen-dang-1/zhu-ce-xin-shu-xing-baseattribute
 
